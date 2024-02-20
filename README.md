@@ -1,6 +1,7 @@
 # Landing Page Hackathon DAVIVIENDA
 
 Luego de clonar el repositorio deben ejecutar los siguientes comandos:
+(Recuerden trabajar en sus respectivas ramas)
 
 Para entrar en la carpeta de trabajo:
 -cd landing-page-davivienda
