@@ -1,11 +1,11 @@
-// Code: Main App component
+import Timeline from "./components/Timeline";
 
 function App() {
   return (
-    <>
-      {/* Aca iran los componentes */}
-    </>
-  )
+    <div>
+      <Timeline />
+    </div>
+  );
 }
 
-export default App
+export default App;
