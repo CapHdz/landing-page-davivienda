@@ -1,1 +1,9 @@
-/* En este documento iran los estilos en caso de que deban hacerse modificaciones especificas */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+  }
