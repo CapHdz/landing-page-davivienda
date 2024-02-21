@@ -1,11 +1,13 @@
-// Code: Main App component
+import Title from "./components/Title";
+import 'tailwindcss/tailwind.css';
 
 function App() {
+
   return (
-    <>
-      {/* Aca iran los componentes */}
-    </>
-  )
+    <div>
+      <Title/>
+    </div>
+  );
 }
 
-export default App
+export default App;
