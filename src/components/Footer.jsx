@@ -11,7 +11,7 @@ function Footer() {
           Nuestro aliados:
         </p>
         <div className="flex mt-4 space-x-10 text-gray-600">
-           <a className="hover:opacity-75" href ="#" target="_blank" rel="noreferrer">
+          <a className="hover:opacity-75" href ="#" target="_blank" rel="noreferrer">
             <span className="sr-only"> Dribbble </span>
             <img src="/src/img/logos/daviplata.png" className="h-12" aria-hidden="true" />
           </a>
