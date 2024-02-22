@@ -31,7 +31,7 @@ export default function Roadmap({ events }) {
 
 const Circle = () => {
   return (
-    <div className='bg-gradient-to-r from-red-800 to-red-500 rounded-full w-4 h-4 mx-auto'>
+    <div className='bg-gradient-to-r from-blue-800 to-teal-500 rounded-full w-4 h-4 mx-auto'>
 
     </div>
   )
@@ -39,7 +39,7 @@ const Circle = () => {
 
 const Pillar = () => {
   return (
-    <div className='bg-gradient-to-b from-red-800 to-red-500 rounded-b-full rounded-t-full w-2 h-full  mx-auto'>
+    <div className='bg-gradient-to-b from-yellow-600 to-yellow-300 rounded-b-full rounded-t-full w-2 h-full  mx-auto'>
 
     </div>
   )

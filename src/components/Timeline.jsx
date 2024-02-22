@@ -18,13 +18,13 @@ export default function Timeline() {
     {
       heading: "Hackathon",
       subHeading: "Desarrollo de proyectos",
-      date: "17-19 de Mayo 2024",
+      date: "17, 18 y 19 de Mayo 2024",
       direction: "left",
     },
   ];
 
   return (
-    <div className='h-[100vh] grid grid-cols-1 md:grid-cols-2'>
+    <div id='timeline' className='h-[100vh] grid grid-cols-1 md:grid-cols-2 py-4 sm:mx-[175px] my-1'>
       <RoadmapTitle />
       <Roadmap events={events} />
     </div>

@@ -17,32 +17,32 @@ const Navbar = () => {
           className="text-white font-bold text-lg"
           onClick={() => scrollToSection("top")}
         >
-          HACKATHON
+          <img className='h-[8vh]' src="src/img/logos/descarga.png" alt="" />
         </div>
         <div className="space-x-4">
           <button
             className="text-white hover:text-[#f2ce1b] cursor-pointer"
-            onClick={() => scrollToSection("acerca")}
+            onClick={() => scrollToSection("title")}
           >
             Acerca del evento
           </button>
           <button
             className="text-white hover:text-[#f2ce1b] cursor-pointer"
-            onClick={() => scrollToSection("roadmap")}
+            onClick={() => scrollToSection("timeline")}
           >
-            RoadMap
+            Timeline
           </button>
           <button
             className="text-white hover:text-[#f2ce1b] cursor-pointer"
-            onClick={() => scrollToSection("fechas")}
+            onClick={() => scrollToSection("descripcion")}
           >
-            Fechas importantes
+            Premios
           </button>
           <button
             className="text-white hover:text-[#f2ce1b] cursor-pointer"
-            onClick={() => scrollToSection("aliados")}
+            onClick={() => scrollToSection("requisitos")}
           >
-            Aliados
+            Información
           </button>
         </div>
       </div>
