@@ -3,13 +3,21 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar-landing-page";
 import 'tailwindcss/tailwind.css';
 
+import BotonInscripcion from "./components/BotonInscripcion"
+import Descripcion from "./components/Descripcion"
+import Requisitos from "./components/Requisitos"
+
+
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Title />
+      <Descripcion/>
+      <Requisitos/>
+      <BotonInscripcion/>
       <Footer />
-    </div>
+    </>
   );
 };
 
