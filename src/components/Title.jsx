@@ -51,7 +51,7 @@ function Title() {
       <div className="bg-gradient-to-r from-davi-Red to-davi-Yellow flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center p-4 md:p-8">
           <motion.h1
-            className="text-2xl md:text-4xl font-bold text-white"
+            className="text-lg md:text-2xl lg:text-3xl font-bold text-white"
             initial={{ opacity: 0, y: -20 }}
             animate={{
               opacity: 1,
@@ -62,7 +62,7 @@ function Title() {
             {titles[currentIndex]}
           </motion.h1>
           <motion.p
-            className="text-xs md:text-sm text-white my-2"
+            className="text-xs md:text-sm lg:text-base text-white my-2"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -70,7 +70,7 @@ function Title() {
             {descriptions[currentIndex]}
           </motion.p>
           <motion.button
-            className="bg-white text-black px-4 py-2 mt-4 rounded hover:bg-gray-200 transition-colors"
+            className="bg-white text-black px-4 py-2 mt-4 rounded hover:bg-gray-200 transition-colors text-xs md:text-sm lg:text-base"
             onClick={redirectToGoogleForm}
             style={{ boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)' }}
             whileTap={{ scale: 0.95 }} // Efecto de escala al hacer clic
@@ -83,7 +83,7 @@ function Title() {
           <motion.img
             src={images[currentIndex]}
             alt="Carousel Image"
-            className="w-full h-auto object-cover"
+            className="h-96 object-cover"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5 }}

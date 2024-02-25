@@ -10,7 +10,7 @@ import 'tailwindcss/tailwind.css';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Title />
       <Timeline />
       <Descripcion/>
