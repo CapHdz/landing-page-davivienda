@@ -3,7 +3,7 @@ import '/src/cards.css'
 
 function Requisitos (){  return (
 
-<section id='requisitos'>
+<section id='requisitos' className='p-4'>
       <h1 className='text-5xl font-bold text-center text-[#048ABF] mt-'>Requisitos:</h1>
       <div class="flex flex-col justify-between items-center lg:flex-row lg:items-start">
     
