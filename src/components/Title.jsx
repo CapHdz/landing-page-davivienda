@@ -38,7 +38,7 @@ const Title = () => {
           </div>
           <div className="mb-4 mx-3">
             <p className="text-gray-800 font-semibold text-2xl">Lugar:</p>
-            <p>Universidad XXXXXXXXXXXXXX</p>
+            <p>Por definir</p>
           </div>
         </div>
         </div>
