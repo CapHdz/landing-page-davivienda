@@ -1,5 +1,6 @@
 import React from 'react'
 import '/src/premios.css'
+import BotonFlotante from './BotonFlotante';
 
 export default function Descripcion() {
   return (
@@ -51,8 +52,10 @@ export default function Descripcion() {
 <footer class="pt-4">
   <a href="https://twitter.com/framansi" target="_blank">
   <div class="flex flex-row items-center justify-center">
+    
   </div>
     </a>
+    <BotonFlotante />
 </footer>
     </section>
     </>
@@ -65,6 +68,7 @@ function Premio({ imagen, titulo, monto, colores }) {
       <img className='w-[200px] sm:w-[250px] lg:w-[300px] mb-4' src={imagen} alt={titulo} />
       <h3 className='text-lg md:text-xl lg:text-2xl font-bold mb-2'>{titulo}</h3>
       <p className='text-xl md:text-2xl lg:text-3xl font-bold text-[#048ABF]'>{monto}</p>
+     
     </div>
   );
 }

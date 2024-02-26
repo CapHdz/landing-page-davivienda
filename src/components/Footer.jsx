@@ -5,6 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaAppStoreIos } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { TbBrandAppgallery } from "react-icons/tb";
+import BotonFlotante from "./BotonFlotante";
 
 function Footer() {
   return (
@@ -38,6 +39,7 @@ function Footer() {
           </div>
         </div>
         <p className='text-white text-center font-bold p-4'>© Kodigo Academia Creativa</p>
+        <BotonFlotante />
       </footer>
     </>
   )

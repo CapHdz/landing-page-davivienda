@@ -1,0 +1,12 @@
+.slide-item {
+  animation: slideRight 2s linear infinite alternate; /* ajusta la velocidad y el comportamiento según tus necesidades */
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px); /* o el valor que desees */
+  }
+}

@@ -5,6 +5,8 @@ import Timeline from "./components/Timeline";
 import Descripcion from "./components/Descripcion";
 import Requisitos from "./components/Requisitos";
 import BotonInscripcion from "./components/BotonInscripcion";
+import Reto from "./components/Reto";
+import Carrusel_Universidades from "./components/Carrousel_Universidades";
 import 'tailwindcss/tailwind.css';
 
 function App() {
@@ -12,10 +14,12 @@ function App() {
     <>
       <Navbar/>
       <Title />
+      <Reto />
       <Timeline />
       <Descripcion/>
       <Requisitos/>
       <BotonInscripcion/>
+      <Carrusel_Universidades />
       <Footer />
     </>
   );
