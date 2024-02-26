@@ -1,9 +1,7 @@
 import React from 'react'
 import '/src/cards.css'
 
-export default function Requisitos() {
-  
-  return (
+function Requisitos (){  return (
 
 <section id='requisitos'>
       <h1 className='text-5xl font-bold text-center text-[#048ABF] mt-'>Requisitos:</h1>
@@ -84,3 +82,5 @@ export default function Requisitos() {
     </section>
   )
 }
+
+export default Requisitos;

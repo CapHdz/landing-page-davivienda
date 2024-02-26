@@ -9,7 +9,7 @@ export default function Descripcion() {
       <h2 className='text-2xl text-center '>Llegó la Hackathon con la que ganarás hasta $3.000</h2>
       <br />
       <h4 className='text-5xl font-bold text-center text-[#048ABF] p-3'>Premios:</h4>
-      <section> 
+    </section> 
   <div className="container max-w-full mx-auto py-12 px-6">
     <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
 
@@ -49,8 +49,7 @@ export default function Descripcion() {
       </div>
     </div>
   </div>
-</section>
-
+    <section>
 <footer class="pt-4">
   <a href="https://twitter.com/framansi" target="_blank">
   <div class="flex flex-row items-center justify-center">
@@ -59,5 +58,15 @@ export default function Descripcion() {
 </footer>
     </section>
     </>
-  )
+  );
+}
+
+function Premio({ imagen, titulo, monto, colores }) {
+  return (
+    <div className={`flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-2xl bg-gradient-to-r from-${colores[0]} via-${colores[1]} to-${colores[2]} border rounded-[2rem] p-5 text-center`}>
+      <img className='w-[200px] sm:w-[250px] lg:w-[300px] mb-4' src={imagen} alt={titulo} />
+      <h3 className='text-lg md:text-xl lg:text-2xl font-bold mb-2'>{titulo}</h3>
+      <p className='text-xl md:text-2xl lg:text-3xl font-bold text-[#048ABF]'>{monto}</p>
+    </div>
+  );
 }
