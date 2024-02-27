@@ -9,8 +9,8 @@ const Carrousel_Universidades = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3, // Avanza de 3 en 3
+        slidesToShow: 4,
+        slidesToScroll: 4, // Avanza de 3 en 3
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
@@ -34,30 +34,38 @@ const Carrousel_Universidades = () => {
     };
     
     return (
-        <div className="max-w-screen-full mx-auto bg-gradient-to-b from-gray-300 to-davi-Red p-8 rounded-lg shadow-lg">
+        <div className="max-w-screen-full mx-auto bg-gradient-to-b from-gray-300 to-davi-Red-200 p-8 rounded-t-lg shadow-lg">
             <h2 className="text-3xl font-bold mb-4 text-center text-gray-800">Universidades Afiliadas</h2>
             <Slider {...settings}>
-                <div className="slide-item">
-                    <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16 mx-auto" />
+                <div className="slide-item flex justify-center">
+                    <div className="logo-container">
+                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                    </div>
                 </div>
-                <div className="slide-item">
-                    <img src="/src/img/universidades/uni_bosco.png" alt="Universidad Logo" className="h-16 mx-auto" />
+                <div className="slide-item flex justify-center">
+                    <div className="logo-container">
+                        <img src="/src/img/universidades/uni_bosco.png" alt="Universidad Logo" className="h-16" />
+                    </div>
                 </div>
-                <div className="slide-item">
-                    <img src="/src/img/universidades/uni_tecno.png" alt="Universidad Logo" className="h-16 mx-auto" />
+                <div className="slide-item flex justify-center">
+                    <div className="logo-container">
+                        <img src="/src/img/universidades/uni_tecno.png" alt="Universidad Logo" className="h-16" />
+                    </div>
                 </div>
-                <div className="slide-item">
-                    <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16 mx-auto" />
+                <div className="slide-item flex justify-center">
+                    <div className="logo-container">
+                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                    </div>
                 </div>
-                <div className="slide-item">
-                    <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16 mx-auto" />
+                <div className="slide-item flex justify-center">
+                    <div className="logo-container">
+                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-10" />
+                    </div>
                 </div>
-                {/* Agrega más divs para más logotipos */}
+                {}
             </Slider>
         </div>
     );
 };
 
 export default Carrousel_Universidades;
-
-

@@ -12,7 +12,8 @@ export default {
         'davi-Yellow': '#F2CE1B',
         'davi-Orange': '#F2811D',
         'davi-Grey': '#F2F2F2',
-        500: '#64748b'
+        500: '#64748b',
+        'davi-Red-200': '#ED2D3D',
       }
     },
   },
