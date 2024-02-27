@@ -46,6 +46,10 @@ function Title() {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLS';
   };
 
+  const redirectToDaviPlata = () => {
+    window.location.href = 'https://www.daviplata.com/wps/portal/daviplata/Home/QueEsDaviPlata/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizQNNDDycTQz93B2dXQ0CDYzMPV3CjA0M3E30wwkpiAJKG-AAjgZA_VFYlDgaOAUZOYEM8DfCqgDFjILcCINMR0VFAIXsUVc!/dz/d5/L2dBISEvZ0FBIS9nQSEh/';
+  };
+
   return (
     <div className="relative w-full">
       <div className="bg-gradient-to-r from-davi-Red to-davi-Yellow flex flex-col md:flex-row">
@@ -70,12 +74,14 @@ function Title() {
             {descriptions[currentIndex]}
           </motion.p>
           <motion.button
-            className="bg-white text-black px-4 py-2 mt-4 rounded hover:bg-gray-200 transition-colors text-xs md:text-sm lg:text-base"
-            onClick={redirectToGoogleForm}
+            className="bg-[#048ABF] text-white px-4 py-2 mt-4 rounded hover:bg-gray-200 hover:text-black transition-colors text-xs md:text-sm lg:text-base"
+            onClick={currentIndex === 4 ? redirectToDaviPlata : redirectToGoogleForm}
             style={{ boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)' }}
             whileTap={{ scale: 0.95 }} // Efecto de escala al hacer clic
           >
-            <strong>Inscríbete Aquí!  </strong>
+            <strong>
+              {titles[currentIndex] === 'Descarga la App de DaviPlata' ? 'Descarga la App ' : 'Inscribete aquí '}
+            </strong>
             <FontAwesomeIcon icon={faArrowPointer} />
           </motion.button>
         </div>

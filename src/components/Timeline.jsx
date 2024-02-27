@@ -24,7 +24,7 @@ export default function Timeline() {
   ];
 
   return (
-    <div id='timeline' className='h-auto md:h-[100vh] grid grid-cols-1 md:grid-cols-2 py-2 sm:mx-[175px] my-1'>
+    <div id='timeline' className='container h-auto grid grid-cols-1 md:grid-cols-2 p-4'>
       <RoadmapTitle />
       <Roadmap events={events} />
     </div>

@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* Menú desplegable para pantallas pequeñas */}
       {isMenuOpen && (
         <div className="md:hidden">
-          <div className="absolute top-16 right-4 bg-gray-800 text-white p-4 rounded-md shadow-md z-10">
+          <div className="bg-gradient-to-r from-red-700 to-red-500 text-white p-4 z-10">
             <button className="block text-white hover:text-yellow-400 mb-2" onClick={() => scrollToSection("title")}>
               <FontAwesomeIcon icon={faInfoCircle} className="mr-2" />
               Acerca del Evento
