@@ -13,14 +13,14 @@ function Footer() {
       <footer className='bg-black h-auto'>
         <div className='grid grid-cols-1 md:grid-cols-3'>
           <div className='p-4 flex items-center justify-center md:justify-start'>
-              <img className='w-2/3' src="src/img/logos/logo-davivienda.png" alt="" />
+              <img className='w-2/3' src="public/img/logos/logo-davivienda.png" alt="" />
           </div>
           <div className='p-4'>
             <div className='p-2'>
               <p className="text-white font-bold text-lg border-b w-min">Organizadores</p>
             </div>
-            <img className="w-1/3 p-1 m-2" src="src/img/logos/kodigo-logo-white.png" alt="" />
-            <img className="w-1/3 p-1 m-2" src="src/img/logos/daviplata.png" alt="" />
+            <img className="w-1/3 p-1 m-2" src="public/img/logos/kodigo-logo-white.png" alt="" />
+            <img className="w-1/3 p-1 m-2" src="public/img/logos/daviplata.png" alt="" />
           </div>
           <div className='p-4'>
             <div className='p-2'>

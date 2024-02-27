@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-red-700 to-red-500 p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <img className='h-12 mr-2' src="src/img/logos/descarga.png" alt="Logo" />
+          <img className='h-12 mr-2' src="public/img/logos/descarga.png" alt="Logo" />
           <span className="text-white font-bold text-lg cursor-pointer" onClick={() => scrollToSection("top")}>Hackathon Davivienda</span>
         </div>
 

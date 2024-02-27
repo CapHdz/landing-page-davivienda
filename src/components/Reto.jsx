@@ -21,7 +21,7 @@ function Reto() {
             <div className='border rounded-xl bg-gradient-to-r from-red-800 to-red-500 p-4 m-2' onMouseEnter={toggleReto} onMouseLeave={toggleReto}>
               <h2 className="text-2xl font-bold text-white">El Reto</h2>
               <div className="relative w-full h-48 overflow-hidden">
-                <img className="object-cover w-80% h-full" src="/src/img/reto_img1.png" alt="Reto Afines" />
+                <img className="object-cover w-80% h-full" src="/public/img/reto_img1.png" alt="Reto Afines" />
               </div>
               {retoVisible && (
                 <motion.ul 
@@ -41,7 +41,7 @@ function Reto() {
             <div className='border rounded-xl bg-gradient-to-r from-red-800 to-red-500 p-4 m-2' onMouseEnter={toggleEntregable} onMouseLeave={toggleEntregable}>
               <h2 className="text-2xl font-bold text-white">Entregable Requerido</h2>
               <div className="relative w-full h-48 overflow-hidden">
-                <img className="object-cover w-80% h-full" src="/src/img/reto_img2.png" alt="Entregable de Estudiantes" />
+                <img className="object-cover w-80% h-full" src="/public/img/reto_img2.png" alt="Entregable de Estudiantes" />
               </div>
               {entregableVisible && (
                 <motion.ul 

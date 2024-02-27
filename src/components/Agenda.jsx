@@ -6,10 +6,10 @@ import { faArrowPointer } from '@fortawesome/free-solid-svg-icons';
 function Title() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    '/src/img/img1.png',
-    '/src/img/img2.png',
-    '/src/img/img3.png',
-    '/src/img/img4.png',
+    '/public/img/img1.png',
+    '/public/img/img2.png',
+    '/public/img/img3.png',
+    '/public/img/img4.png',
   ];
 
   const titles = [

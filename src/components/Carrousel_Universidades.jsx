@@ -39,27 +39,27 @@ const Carrousel_Universidades = () => {
             <Slider {...settings}>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/public/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/public/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/public/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/public/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-10" />
+                        <img src="/public/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-10" />
                     </div>
                 </div>
                 {}
