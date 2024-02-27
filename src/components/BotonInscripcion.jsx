@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function BotonInscripcion() {
   return (
     <section className='flex-3 w-1/8 p-9 items-center grid grid-cols-1'>
