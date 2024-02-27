@@ -27,7 +27,7 @@ export default function Descripcion() {
                 </div>
                 <div className='rounded-b-lg shadow-lg overflow-hidden p-9'>
                   <div className='text-left flex items-center justify-center text-sm sm:text-md max-w-sm mx-auto mt-2 px-8 lg:px-6'>
-                    <img className='w-1/4' src='public/img/billete.png' alt='' />
+                    <img className='w-1/4' src='/img/billete.png' alt='' />
                     <h2 className='ml-3 text-5xl text-center font-bold text-black'>$3,000</h2>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ export default function Descripcion() {
                 </div>
                 <div className='rounded-b-lg shadow-lg overflow-hidden p-6'>
                   <div className='text-left flex items-center justify-center text-sm sm:text-md max-w-sm mx-auto mt-3 px-8 lg:px-6'>
-                    <img className='w-1/4' src='public/img/billete.png' alt='' />
+                    <img className='w-1/4' src='/img/billete.png' alt='' />
                     <h2 className='ml-3 text-4xl text-center font-bold text-black'>$2,000</h2>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Descripcion() {
                 </div>
                 <div className='rounded-b-lg shadow-lg overflow-hidden p-3'>
                   <div className='text-left flex items-center justify-center text-sm sm:text-md max-w-sm mx-auto mt-2 px-8 lg:px-6'>
-                    <img className='w-1/4' src='public/img/billete.png' alt='' />
+                    <img className='w-1/4' src='/img/billete.png' alt='' />
                     <h2 class='ml-3 text-3xl text-center font-bold text-black'>$1,000</h2>
                   </div>
                 </div>
