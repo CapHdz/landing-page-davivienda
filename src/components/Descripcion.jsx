@@ -1,6 +1,4 @@
 import React from 'react'
-import '/src/premios.css'
-import BotonFlotante from './BotonFlotante';
 
 export default function Descripcion() {
   return (
@@ -81,27 +79,7 @@ export default function Descripcion() {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-<footer class="pt-4">
-  <a href="https://twitter.com/framansi" target="_blank">
-  <div class="flex flex-row items-center justify-center">
-    
-  </div>
-    </a>
-    <BotonFlotante />
-</footer>
-    </section>
+      </section>
   );
 }
 
-function Premio({ imagen, titulo, monto, colores }) {
-  return (
-    <div className={`flex flex-col items-center justify-center transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-2xl bg-gradient-to-r from-${colores[0]} via-${colores[1]} to-${colores[2]} border rounded-[2rem] p-5 text-center`}>
-      <img className='w-[200px] sm:w-[250px] lg:w-[300px] mb-4' src={imagen} alt={titulo} />
-      <h3 className='text-lg md:text-xl lg:text-2xl font-bold mb-2'>{titulo}</h3>
-      <p className='text-xl md:text-2xl lg:text-3xl font-bold text-[#048ABF]'>{monto}</p>
-     
-    </div>
-  );
-}

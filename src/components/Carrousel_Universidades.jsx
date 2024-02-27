@@ -44,12 +44,12 @@ const Carrousel_Universidades = () => {
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_bosco.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
                     <div className="logo-container">
-                        <img src="/src/img/universidades/uni_tecno.png" alt="Universidad Logo" className="h-16" />
+                        <img src="/src/img/universidades/uni_matias.png" alt="Universidad Logo" className="h-16" />
                     </div>
                 </div>
                 <div className="slide-item flex justify-center">
